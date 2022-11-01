@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.btn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 5px;
+}
+
+.btn_light {
+  background-color: white;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  background-color: #f2f0ff;
+  height: 100vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.197);
+}
+header nav img {
+  width: 120px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 15%;
+}
+header nav ul a {
+  color: #0d6efd;
+  font-weight: 600;
+  font-size: 17px;
+}
+header .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .hero .hero_text {
+  padding-left: 5%;
+  width: 70%;
+}
+header .hero .hero_text h1 {
+  color: #212529;
+  font-size: 50px;
+}
+header .hero .hero_text p {
+  color: #212529;
+  font-size: 22px;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+header .hero .hero_text form {
+  margin-top: 50px;
+}
+header .hero .hero_text input {
+  padding: 25px 15px;
+  font-size: 20px;
+}
+header .hero .hero_text input:first-child {
+  width: 60%;
+  border: 1px solid rgb(216, 216, 216);
+  background-color: white;
+  border-radius: 5px;
+}
+header .hero .hero_text input:nth-child(2) {
+  width: 30%;
+  border: none;
+  cursor: pointer;
+}
+header .hero .hero_img {
+  width: 50%;
+}
+header .hero .hero_img img {
+  width: 100%;
+}
+
+.demo {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 150px 0 100px;
+}
+.demo h2 {
+  font-size: 34px;
+  color: #212529;
+}
+.demo p {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #212529;
+  width: 90%;
+  margin: 10px auto;
+}
+.demo a i {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.demo .dashboard {
+  margin-top: 50px;
+}
+.demo .dashboard img {
+  width: 100%;
+}
+.demo p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.demo .logo_demo img {
+  margin: 0 15px;
+}
+
+.services {
+  width: 70%;
+  margin: auto;
+  padding: 100px 0 0px;
+}
+.services h2 {
+  font-size: 30px;
+  color: #212529;
+  margin-bottom: 20px;
+}
+.services p {
+  font-size: 20px;
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.services .service_about {
+  width: 50%;
+}
+.services .row_reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .row_reverse .service_text {
+  padding-top: 40px;
+}
+.services .service_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  margin: 100px 0;
+}
+.services .service_container .service_text {
+  width: 110%;
+  margin-top: 30px;
+}
+.services .service_container .service_text p {
+  color: #6c7585;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+.services .service_container .service_text h4 {
+  color: #212529;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.services .service_container .service_text a {
+  font-size: 22px;
+  color: #212529;
+  font-weight: 600;
+}
+.services .service_container .service_text a:hover {
+  text-decoration: underline;
+}
+.services .service_container .service_text a i {
+  font-size: 15px;
+}
+.services .service_container .service_img {
+  width: 100%;
+}
+.services .service_container .service_img img {
+  width: 90%;
+}
+
+.tarifs {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 30px 0;
+  margin-bottom: 40px;
+}
+.tarifs .tarif {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+}
+.tarifs .tarif .tarif_img {
+  width: 35%;
+}
+.tarifs .tarif .tarif_img img {
+  width: 80%;
+}
+.tarifs .tarif .tarif_text {
+  width: 100%;
+}
+.tarifs .tarif .tarif_text p {
+  margin: 15px 0 30px;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #212529;
+}
+.tarifs .tarif .tarif_text a {
+  padding: 8px 12px;
+}
+
+.ebay {
+  background-color: #e6fcff;
+  padding: 100px 0 40px;
+  position: relative;
+}
+.ebay .quote i {
+  font-size: 40px;
+  position: absolute;
+  top: 12%;
+  left: 36%;
+}
+.ebay .ebay_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  border-bottom: 5px solid #212529;
+  padding-bottom: 100px;
+}
+.ebay .ebay_container .ebay_img {
+  width: 50%;
+}
+.ebay .ebay_container .ebay_img img {
+  width: 90%;
+}
+.ebay .ebay_container .ebay_img .text_left {
+  margin-top: 120px;
+}
+.ebay .ebay_container .ebay_img h4, .ebay .ebay_container .ebay_img h3 {
+  color: #212529;
+  margin-bottom: 5px;
+}
+.ebay .ebay_container .ebay_text {
+  width: 100%;
+}
+.ebay .ebay_container .ebay_text p {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.ebay .ebay_container .ebay_text .text_right {
+  text-align: right;
+  margin-top: 50px;
+}
+.ebay .ebay_container .ebay_text .text_right h4, .ebay .ebay_container .ebay_text .text_right h6 {
+  font-size: 18px;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+  color: #2a2b4d;
+}
+.ebay .next {
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+.ebay .next i {
+  background-color: #212529;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.ebay .next button {
+  background-color: #212529;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 10px;
+  vertical-align: bottom;
+}
+
+.inscription {
+  width: 70%;
+  margin: auto;
+  background-image: url(images/Capture.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  margin: 100px auto 50px;
+  text-align: center;
+}
+.inscription .inscription_container {
+  width: 80%;
+  margin: auto;
+}
+.inscription .inscription_container p {
+  font-size: 30px;
+  color: white;
+  line-height: 1.5;
+}
+.inscription .inscription_container form {
+  margin-top: 50px;
+}
+.inscription .inscription_container form input {
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+.inscription .inscription_container form input:first-child {
+  width: 30%;
+  margin-right: 20px;
+}
+.inscription .inscription_container form input:nth-child(2) {
+  background-color: #0dcaf0;
+  cursor: pointer;
+}
+.inscription .inscription_container form input:nth-child(2):hover {
+  background-color: #32d7f8;
+}
+
+footer {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+footer p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+footer img {
+  width: 12%;
+}
+footer select {
+  display: block;
+  margin: 100px auto 30px;
+  padding: 10px 0;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 5px;
+  width: 15%;
+  font-size: 18px;
+  color: rgb(140, 140, 140);
+}
+footer .footer_menu {
+  margin: 20px 0;
+}
+footer .footer_menu a {
+  text-decoration: underline;
+  color: #6c7585;
+  margin: 0 10px;
+}
+footer .footer_menu a:hover {
+  color: #3e434d;
+}
+footer .copyright {
+  margin: 20px 0 50px;
+  font-size: 15px;
+  color: #212529;
+}
+
+/*# sourceMappingURL=styles.css.map */
